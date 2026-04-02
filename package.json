@@ -1,0 +1,12 @@
+{
+  "name": "midnight-zap-workspace",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*",
+    "contracts"
+  ],
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

@@ -1,0 +1,17 @@
+export ledger state: Cell<Bytes(32)>;
+
+constructor() {
+    state = "00000000000000000000000000000000";
+}
+
+// Age verification claim
+export circuit verifyAge(age: Uint<8>, nonce: Bytes(32)): [] {
+    assert age >= 18 "Age must be at least 18";
+    state = nonce;
+}
+
+// General boolean claim 
+export circuit verifyBooleanClaim(isPassed: Boolean, nonce: Bytes(32)): [] {
+    assert isPassed "Condition not met";
+    state = nonce;
+}

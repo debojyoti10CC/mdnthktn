@@ -1,0 +1,21 @@
+{
+  "name": "midnight-zap",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Drop-in SDK for Zero-Knowledge powered Identity on Midnight Network",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w"
+  },
+  "dependencies": {
+    "@simplewebauthn/browser": "^9.0.1",
+    "@simplewebauthn/server": "^9.0.3",
+    "idb": "^8.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.0.0"
+  }
+}
