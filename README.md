@@ -1,4 +1,4 @@
-# ⚡️ MidnightZap
+# MidnightZap
 
 **MidnightZap is an open-source TypeScript SDK that lets any web2 developer add zero-knowledge-powered authentication and identity proofs to their application in under 5 minutes.**
 
