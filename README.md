@@ -8,7 +8,7 @@ Instead of asking a user *who* they are, an application asks *what they can prov
 
 ---
 
-## 🤯 How It Works (Under the Hood)
+##  How It Works (Under the Hood)
 
 When a user visits an application utilizing MidnightZap, the flow breaks down into two core abstractions that the developer never has to manually wire:
 
