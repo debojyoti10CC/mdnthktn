@@ -25,7 +25,7 @@ When an application requests verification (e.g., `age >= 18`), the `zkLogin` mod
 
 ---
 
-## 🛠️ How Web2 Developers Use It
+##  How Web2 Developers Use It
 
 MidnightZap requires **zero blockchain leakages**. Developers don't need to know what a SNARK is, they don't need to hold DUST tokens, and they don't need to learn the `Compact` compiler.
 
